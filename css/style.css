@@ -81,7 +81,13 @@ a {
     font-weight: bold;
 }
 .news {
+    width: 100vw;
+}
+.news-area {
     margin: 6em auto;
+}
+.news-ttl {
+    
 }
 .news-content {
     margin-top: 3em;
@@ -144,6 +150,9 @@ a {
     font-weight: bold;
 }
 .service {
+    width: 100vw;
+}
+.service-area {
     margin: 5em auto;
 }
 .grid__parent {
@@ -157,21 +166,21 @@ a {
     text-align: center;
     grid-column: 1/2;
     grid-row: 1/3;
-    background: #f800c26f;
+    background: darkmagenta;
 }
 .box2 {
     padding: 2em;
     display: flex;
     grid-column: 2/4;
     grid-row: 1/2;
-    background: #ff00c8c2;
+    background: palevioletred;
 }
 .box3 {
     padding: 2em;
     display: flex;
     grid-column: 2/4;
     grid-row: 2/3;
-    background: #ff01f79e;
+    background: plum;
 }
 .service_first {
     width: 30%;
@@ -207,13 +216,17 @@ a {
 .blog {
     background-color: #dedede;
     padding: 3vh 0;
+    width: 100vw;
+}
+.blog-area {
+    margin: auto;
 }
 .blog-cards {
     display: flex;
 }
 .blog-card {
     width: 330px;
-    margin: 40px auto 0;
+    margin: 20px auto 0;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -278,6 +291,9 @@ a {
     font-weight: bold;
 }
 .company {
+    width: 100vw;
+}
+.company-area {
     margin: 50px auto;
 }
 .company-info {
@@ -360,12 +376,12 @@ a {
     content: "";
     position: absolute;
     top: 50%;
-    right: 15px;
+    left: 15px;
     background: url(../img/mailicon.svg) no-repeat;
     background-size: cover;
     width: 30px;
     height: 30px;
-    transform: translate(0, -50%);
+    transform: translateY(-50%);
 }
 /* フッター */
 .footer {
