@@ -81,17 +81,18 @@ a {
     font-weight: bold;
 }
 .news {
-    width: 100vw;
+    width: 800px;
+    margin: 6em auto;
 }
 .news-area {
-    margin: 6em auto;
+    
 }
 .news-ttl {
     
 }
 .news-content {
     margin-top: 3em;
-    width: 50vw;
+    width: 800px;
     border-top: 3px solid #dedede;
     border-bottom: 3px solid #dedede;
 }
@@ -150,15 +151,17 @@ a {
     font-weight: bold;
 }
 .service {
-    width: 100vw;
+    width: 800px;
+    margin: 6em auto;
 }
 .service-area {
-    margin: 5em auto;
+    
 }
 .grid__parent {
+    width: 800px;
     margin: 2vh 0;
     display: grid;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 230px 230px;
     grid-template-columns: 2fr 1fr 1fr;
 }
 .box1 {
@@ -216,16 +219,16 @@ a {
 .blog {
     background-color: #dedede;
     padding: 3vh 0;
-    width: 100vw;
 }
 .blog-area {
-    margin: auto;
+    width: 800px;
+    margin: 6em auto;
 }
 .blog-cards {
     display: flex;
 }
 .blog-card {
-    width: 330px;
+    width: 250px;
     margin: 20px auto 0;
     border-radius: 10px;
     overflow: hidden;
@@ -291,13 +294,14 @@ a {
     font-weight: bold;
 }
 .company {
-    width: 100vw;
+    width: 800px;
+    margin: 6em auto;
 }
 .company-area {
-    margin: 50px auto;
+    
 }
 .company-info {
-    width: 60%;
+    width: 100%;
     border-collapse: collapse;
     margin-top: 3em;
 }
@@ -370,9 +374,9 @@ a {
     font-weight: bold;
     text-decoration: none;
     border-radius: 30px;
-    margin: 100px auto;
+    margin: 20px auto;
 }
-.download__btn::before {
+.contact__btn::before {
     content: "";
     position: absolute;
     top: 50%;
