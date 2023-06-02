@@ -24,20 +24,35 @@
 /* 経営理念 */
 .philosophy {
     position: relative;
-    display: flex;
-    height: 40vh;
+    height: 400px;
 }
-.firstview {
-    position: absolute;
-    height: auto;
-    width: 60vw;
-    max-height: 100%;
-    margin-left: 40vw;
+@media screen and (max-width: 1500px) {
+    .firstview {
+            position: absolute;
+            height: auto;
+            width: 50vw;
+            max-height: 100%;
+            margin-left: 50vw;
+        }
+    .philosophy-content {
+        position: absolute;
+        top: 5vh;
+        left: 30vw;
+        }
 }
-.philosophy-content {
-    position: absolute;
-    top: 5vh;
-    left: 20vw;
+@media screen and (max-width: 1000px) {
+    .firstview {
+            position: absolute;
+            height: auto;
+            width: 60vw;
+            max-height: 100%;
+            margin-left: 40vw;
+        }
+    .philosophy-content {
+            position: absolute;
+            top: 5vh;
+            left: 20vw;
+        }
 }
 .philosophy-english {
     font-size: 45px;
